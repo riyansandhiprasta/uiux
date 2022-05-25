@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Riyan | UI/UX</title>
+    <style>
+        body{
+            font-family: inter;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="py-12 bg-transparent z-10">
+            <ul class="flex space-x-6 justify-center text-white font-semibold">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#works">Project</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="header" class="bg-[url('img/bghero.svg')] bg-cover py-72 lg:py-60 lg:container mx-auto lg:max-w-full -mt-32">
+        <h1 class="mx-4 font-semibold text-white text-4xl lg:text-6xl text-left lg:text-center">
+            Hello, I'm <span class="font-extrabold">Riyan Sandhiprasta</span>
+        </h1>
+        <h1 class="mx-4 mt-10 lg:mt-24 font-extrabold text-white text-3xl lg:text-4xl text-left lg:text-center">
+            Welcome to My World!
+        </h1>
+    </section>
+
+    <section id="about" class="mb-12 mt-10 lg:mt-44 bg-slate-50 py-6 max-w-full lg:flex container m-[600px] mx-auto scroll-mt-10 lg:scroll-mt-32">
+        <img src="img/profile.jpeg" alt="Riyan" class="w-[200px] lg:w-[300px] rounded-lg shadow-lg mx-4 lg:ml-64">
+        <div class="max-w-full lg:w-[600px]">
+            <h3 class="font-bold text-2xl lg:text-4xl text-purple-600 mt-6 lg:mt-9 mx-4 lg:mx-8">
+                UI/UX Design Enthusiast
+            </h3>
+            <p class="mx-4 lg:mx-8 my-4 lg:mt-8 font-medium text-justify text-slate-600 text-sm lg:text-xl">
+                Hello I'm I Putu Riyan Sandhiprasta, undergraduate Informatics student at Udayana University. I have strong  interest in UI/UX Design and Web Development. Currently taking Independent Study for UI/UX Designer course at Binar Academy.
+            </p>
+        </div>
+    </section>
+
+    <section id="works" class="scroll-mt-8 mt-24 lg:mt-44 lg:container mx-auto">
+        <h1 class="mx-4 font-extrabold text-4xl lg:text-5xl text-left lg:text-center text-purple-600 lg:mb-10">
+            My Projects
+        </h1>
+        <div class="max-w-full lg:w-[90%] lg:ml-12 lg:grid grid-cols-3 gap-6">
+            <div class="my-8 mx-4 p-2 rounded-lg shadow-lg lg:w-full hover:translate-y-[-6px] duration-300">
+                <img src="img/SewaMobilCover.png" alt="TokoNFT" class="max-w-full rounded-lg">
+                <h5 class="font-semibold text-slate-800 text-md my-2">
+                    <span class="font-bold">Study Case</span> - Website Rental Mobil
+                </h5>
+                <a href="https://www.notion.so/SewaMobil-id-Website-Rental-Mobil-6d610e3cee5f4704a042be7b34dfc558" target="_blank" class="mb-4 text-sm text-purple-500">
+                    See detail
+                </a>
+            </div>
+            <div class="my-8 mx-4 p-2 rounded-lg shadow-lg lg:w-full hover:translate-y-[-6px] duration-300">
+                <img src="img/BaliProv.png" alt="TokoNFT" class="max-w-full rounded-lg">
+                <h5 class="font-semibold text-slate-800 text-md my-2">
+                    <span class="font-bold">Redesain</span> - Website Pemerintah Provinsi Bali
+                </h5>
+                <a href="#" target="_blank" class="mb-4 text-sm text-purple-500">
+                    See detail
+                </a>
+            </div>
+            <div class="my-8 mx-4 p-2 rounded-lg shadow-lg lg:w-full hover:translate-y-[-6px] duration-300">
+                <img src="img/TokoNFT Shoot.png" alt="TokoNFT" class="max-w-full rounded-lg">
+                <h5 class="font-semibold text-slate-800 text-md my-2">
+                    <span class="font-bold">TokoNFT</span> - World of Digital Art
+                </h5>
+                <a href="#" target="_blank" class="mb-4 text-sm text-purple-500">
+                    See detail
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="explor" class="mt-24 lg:mt-44 lg:container mx-auto">
+        <h1 class="mx-4 font-extrabold text-4xl lg:text-5xl text-left lg:text-center text-purple-600 mb-10 lg:mb-24">
+            UI Design Exploration
+        </h1>
+        <div class="mx-4 max-w-full lg:w-[90%] lg:ml-12 lg:grid grid-cols-2 gap-6">
+            <img src="img/Tiketin_Shoot.png" alt="" class="rounded-lg mb-4 hover:translate-y-[-6px] duration-300">
+            <img src="img/TokoNFT Shoot.png" alt="" class="rounded-lg mb-4 hover:translate-y-[-6px] duration-300">
+            <img src="img/SiniarApp_Shoot.png" alt="" class="rounded-lg mb-4 hover:translate-y-[-6px] duration-300">
+            <img src="img/UangKu_Shoot.png" alt="" class="rounded-lg mb-4 hover:translate-y-[-6px] duration-300">
+        </div>
+    </section>
+
+    <section id="contact" class="mt-32 mb-40">
+        <h1 class="mx-4 text-center font-extrabold text-4xl lg:text-5xl lg:text-center text-purple-600 mb-10 lg:mb-24">
+            Find Me
+        </h1>
+        <div class="w-[50%] lg:w-[20%] grid grid-cols-2 gap-10 lg:gap-20 mx-auto mt-16">
+            <a href="https://instagram.com/riyansandhiprasta">
+                <img src="img/instagram.png" alt="instragram" class="w-30 p-2 mx-auto hover:shadow-xl rounded-xl duration-150">
+            </a>
+            <a href="https://linkedin.com/in/riyansandhiprasta">
+                <img src="img/linkedin.png" alt="linkedin" class="w-30 p-2 mx-auto hover:shadow-xl rounded-xl duration-150">
+            </a>
+            <a href="https://github.com/riyansandhiprasta">
+                <img src="img/github.png" alt="github" class="w-30 p-2 mx-auto hover:shadow-xl rounded-xl duration-150">
+            </a>
+            <a href="https://dribbble.com/riyansandhiprasta">
+                <img src="img/dribbble.png" alt="dribbble" class="w-30 p-2 mx-auto hover:shadow-xl rounded-xl duration-150">
+            </a>
+        </div>
+    </section>
+</body>
+</html>
